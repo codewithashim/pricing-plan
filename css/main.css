@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.lineTitle {
+  width: 3rem;
+  height: 2px;
+  background: blue;
+  margin-bottom: 0.5rem;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainHeader {
+  width: 100%;
+  height: 105vh;
+  background: whitesmoke;
+}
+#mainHeader .headerTitle {
+  margin: auto;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+#mainHeader .headerTitle h4 {
+  color: blue;
+  font-size: 1rem;
+}
+#mainHeader .headerTitle h2 {
+  font-weight: 500;
+}
+#mainHeader .headerTitle p {
+  width: 60%;
+  text-align: center;
+}
+#mainHeader #pricingCenter {
+  margin-top: -1rem;
+  justify-content: center;
+  align-items: center;
+}
+#mainHeader #pricingCenter .card {
+  margin-right: 1rem;
+  transition: 0.5s;
+}
+#mainHeader #pricingCenter .card:hover {
+  background: blue;
+}
+#mainHeader #pricingCenter .card .card-body {
+  text-align: center;
+  padding-top: 2rem !important;
+  margin-bottom: 1rem !important;
+}
+#mainHeader #pricingCenter .card .card-body h4 {
+  font-weight: 600;
+}
+#mainHeader #pricingCenter .card .card-body ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 2rem;
+}
+#mainHeader #pricingCenter .card a {
+  border-radius: 1.5rem;
+  font-size: 0.8rem;
+}
+#mainHeader #pricingCenter .card a:hover {
+  background: whitesmoke;
+  color: blue;
+}
+
+#heroAreia {
+  width: 100%;
+  height: 70vh;
+  background: url(../img/bg.jpg) rgba(84, 84, 253, 0.795);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
+}
+#heroAreia .heroTitle {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8rem;
+  width: 60%;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#heroAreia .heroTitle h2 {
+  font-weight: 600;
+}
+#heroAreia .heroTitle .btnStyle {
+  background: white;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  transition: 0.5s;
+}
+#heroAreia .heroTitle .btnStyle:hover {
+  background: blue;
+  color: wheat;
+}
+
+#footerSection {
+  width: 100%;
+  height: 60vh;
+  background: whitesmoke;
+}
+#footerSection .row {
+  padding-top: 5rem;
+}
+#footerSection .row .leftWidhet {
+  width: 35rem;
+  height: 12rem;
+  background: blue;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+#footerSection .row .leftWidhet input {
+  margin-right: 1rem;
+  width: 20rem;
+  padding: 0.3rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
+#footerSection .row .leftWidhet button {
+  padding: 0.3rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 0.9;
+}
+#footerSection .row .rightWidhet {
+  padding: 1rem;
+  margin-right: 4rem;
+  width: 20rem;
+  height: 12rem;
+  background: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-right: 3rem;
+}/*# sourceMappingURL=main.css.map */
